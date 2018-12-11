@@ -34,7 +34,7 @@
 
         <div class="col-xs-6"><button id="foobtnzamer" class="btn-ilk eModal-2">&nbsp;&nbsp;Вызвать&nbsp;замерщика</button></div>
 </div>
-        <div class="row">
+        <div class="row" style="opacity: 0;">
         <div class="col-xs-6"><span class="seven">Перезвоним за <b>7</b> секунд</span></div>
         <div class="col-xs-6"><span id="foobtnzamerspan" >и получить скидку <span>48%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span> </div>
 </div>
