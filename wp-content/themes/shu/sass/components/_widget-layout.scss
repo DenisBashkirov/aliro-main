@@ -1,0 +1,86 @@
+/* block */
+
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;
+    position: relative;
+    .#{$block-heading-selector}{
+        border-bottom: 1px solid $border-color;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0 15px 25px 15px;
+        position: relative;
+        text-transform: inherit;
+        > span{
+            position: relative;
+            padding: $block-module-heading-padding;
+            display: block;
+        }   
+        &.related-post-title {
+            border: none;
+        }
+    }
+    .#{$block-content-selector} {
+    }
+    /* block styles */
+    &.nopadding{
+        .#{$block-content-selector}{
+            padding:0;
+            margin: 0;
+        }
+    }
+}
+
+/**
+ * Styling Css for widgets in Sidebar Left Static
+ */
+.#{$block-prefix}-static{
+    .#{$block-heading-selector}{
+        color:#FFFFFF;
+    }
+    ul li { border:none }
+}
+
+.sidebar{
+    .widget{
+        .widget-title,.widgettitle{
+            margin-bottom: 0;
+            border-bottom: 1px solid $border-color;
+        }
+        .widget-title {
+            border-bottom: 1px solid $border-color;
+            font-size: $font-size-h2;
+            font-weight: 700;
+            letter-spacing: -2px;
+            margin: 0;
+            text-transform: inherit;
+            > span {
+                padding: 0;
+            }
+        }
+        ul {
+            &.product_list_widget{
+                // padding: 20px 0;
+                li{
+                    padding: 15px 20px;
+                }
+            }
+        }
+    }
+    .widget-content{
+        border: 1px solid $border-color;
+    }
+}
+
+/**
+ * Styling Css for widgets in footer layout
+ */
+.opal-footer{
+    .#{$block-selector} { 
+        .#{$block-heading-selector}{
+            font-size: 16px;
+            color: $white;
+        }
+    } 
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themecustomize>
+
+    <section title="Primary Color">
+        <maincolor>
+            <id>primary_color</id>
+            <title>Primary Color</title>
+            <color>#ffc000</color>
+        </maincolor>
+    </section>    
+    <section title="Header">
+        <control>
+            <id>topbar_bg</id>
+            <title>Topbar Background</title>
+            <selector>.opal-topbar</selector>
+            <property>background-color</property>
+        </control>
+        <control>
+            <id>topbar_color</id>
+            <title>Topbar color</title>
+            <selector>.opal-topbar, .opal-topbar a</selector> 
+        </control>
+        <control>
+            <id>menu_color</id>
+            <title>Megamenu color</title>
+            <selector>.navbar-mega .navbar-nav > li > a</selector> 
+        </control>
+        <control>
+            <id>menu_color_hover</id>
+            <title>Megamenu Hover color</title>
+            <selector>.navbar-mega .navbar-nav li.active > a, .navbar-mega .navbar-nav > li > a:hover, .navbar-mega .navbar-nav > li > a:focus, .navbar-mega .navbar-nav > li > a:hover .caret, .navbar-mega .navbar-nav > li > a:focus .caret,.navbar-mega .navbar-nav li.active > a .caret</selector>  
+        </control>
+    </section>
+
+    <section title="Block Highlight">
+        <control>
+            <id>category_bg</id>
+            <title>Category Bg</title>
+            <selector>.widget_product_categories, .widget_product_categories .widget-title, .widget_product_categories .widgettitle, .widget_product_categories .children</selector>
+            <property>background-color</property>
+        </control>  
+        <control>
+            <id>category_color</id>
+            <title>Category Color</title>
+            <selector>ul.product-categories li a, .widget_product_categories .children li a, .widget_product_categories .count, .widget_product_categories .children, .widget_product_categories .widget-title, .widget_product_categories .widgettitle</selector>          
+        </control>                
+    </section>
+    
+    <section title="Footer">
+        <control>
+            <id>footer_bg</id>
+            <title>Footer BG</title>
+            <selector>.opal-footer</selector>
+            <property>background-color</property>
+        </control>
+        <control>
+            <id>footer_color</id>
+            <title>Footer Color</title>
+            <selector>.opal-footer, .opal-footer a, .opal-footer a span, .opal-footer .footer-center .widget .menu li a</selector>
+        </control>
+        <control>
+            <id>heading_color</id>
+            <title>Heading Color</title>
+            <selector>.opal-footer .widget .widget-title, .opal-footer .widget .widgettitle, .opal-footer .footer-center .widget.widget_text .textwidget h4</selector>
+        </control>
+        <control>
+            <id>copyright_bg</id>
+            <title>Footer Copyright Background</title>
+            <selector>.opal-copyright</selector>
+            <property>background-color</property>
+        </control>
+        <control>
+            <id>copyright_color</id>
+            <title>Copyright Color</title>
+            <selector>.opal-copyright</selector> 
+        </control>
+    </section>
+</themecustomize>

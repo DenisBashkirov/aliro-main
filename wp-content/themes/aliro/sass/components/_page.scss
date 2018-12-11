@@ -1,0 +1,119 @@
+/**
+ * 6.10 Contributor Page
+ * -----------------------------------------------------------------------------
+ */
+.contributor {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:      border-box;
+	padding: 48px 10px;
+}
+
+.contributor:first-of-type {
+	padding-top: 24px;
+}
+
+.contributor-info {
+	margin: 0 auto;
+	max-width: 474px;
+}
+
+.contributor-avatar {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	float: left;
+	margin: 0 30px 20px 0;
+	padding: 2px;
+}
+
+.contributor-name {
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.contributor-bio a {
+	text-decoration: underline;
+}
+
+.contributor-bio a:hover {
+	text-decoration: none;
+}
+
+.contributor-posts-link {
+	display: inline-block;
+	line-height: normal;
+	padding: 10px 30px;
+}
+
+.contributor-posts-link:before {
+	content: "\f443";
+}
+
+
+/**
+ * 6.11 404 Page
+ * -----------------------------------------------------------------------------
+ */
+.notfound-page{
+   padding: 150px 0;
+   color: $black;
+   @media (min-width: $screen-sm) and (max-width: $screen-sm-max){
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   @media (max-width: $screen-phone) {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   .title{
+      font-size: 190px;
+      color: $theme-color;
+      font-weight: 800;
+      line-height: 1;
+      padding: 80px 0 0 50px;
+      @media (max-width: $screen-phone) {
+         padding: 80px 0;
+         font-size: 100px;
+      }
+      display: inline-block;
+   }
+   .sub{
+      font-size: 30px;
+      font-weight: 300;
+      display: block;
+      position: relative;
+      font-family: $font-family-serif;
+      font-style: italic;
+      &:before{
+         background: $theme-color;
+         bottom: -32px;
+         content: "";
+         height: 18px;
+         left: 0;
+         position: absolute;
+         right: 0;
+         width: 130px;
+         z-index: 0;
+      }
+   }
+   .left-notfound{
+      background:rgba(0, 0, 0, 0) url('#{$image-theme-skin}bg-notfound.jpg') no-repeat center top;
+      height: 328px;
+   }
+   .error-description{
+      font-size: 30px;
+      line-height: 30px;
+      position: relative;
+      max-width: 400px;
+      z-index: 1000;
+   }
+   .page-action{
+      margin-top: 30px;
+      a{
+         padding: 12px 30px;
+         font-weight: 600;
+      }
+   }
+}     

@@ -1,0 +1,61 @@
+.kc-dual-button .kc-dual-button-wrap {
+	display: inline-block;
+	overflow: hidden;
+}
+.kc-dual-button .kc-dual-button-one, .kc-dual-button .kc-dual-button-two {
+	position: relative;
+	float: left;
+}
+.kc-dual-button .kc-dual-button-one a {
+	background: #59c433;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 15px 25px 15px 20px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+}
+.kc-dual-button .kc-dual-button-two a {
+	background: #4f4f4f;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 15px 20px 15px 25px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+}
+.kc-dual-button .kc-dual-button-one a i{
+	transition: all 0.3s ease 0s;
+}
+.kc-dual-button .kc-middle-text {
+	background: #ffffff;
+	border-radius: 50px;
+	position: absolute;
+	top: 50%;
+	height: 32px;
+	width: 32px;
+	right: 0;
+	z-index: 2;
+	-webkit-transform: translate(50%,-50%);
+	-moz-transform: translate(50%,-50%);
+	-o-transform: translate(50%,-50%);
+	-ms-transform: translate(50%,-50%);
+	transform: translate(50%,-50%);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	text-align: center;
+}
+.kc-dual-button .kc-middle-text span {
+	color: #4f4f4f;
+	font-size: 12px;
+	line-height: 32px;
+}
+.kc-dual-button .kc-middle-text i {
+	color: #4f4f4f;
+	font-size: 16px;
+	line-height: 32px;
+	display: inline-block;
+}

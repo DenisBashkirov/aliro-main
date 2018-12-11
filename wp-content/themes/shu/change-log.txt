@@ -1,0 +1,14 @@
+Version: 1.3 Updated 26-October-2017
+- update woo 3.2
+- remove file js
+- update file languages
+- update menu mobile
+
+Change log:
+(-) /themes/shu/js/customizer.js
+/themes/shu/js/functions.js
+/themes/shu/languages/shu.pot
+/themes/shu/style.css
+/themes/shu/woocommerce/cart/mini-cart.php
+/themes/shu/woocommerce/checkout/form-shipping.php
+/themes/shu/woocommerce/single-product-reviews.php
