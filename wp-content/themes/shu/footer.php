@@ -31,7 +31,7 @@
  </div>
         <div class="top-phone">
         <div class="row">
-        <div class="col-xs-6"><button id="foobtnorder" class="btn-bluetop eModal-1">Заказать звонок</button></div>
+
         <div class="col-xs-6"><button id="foobtnzamer" class="btn-ilk eModal-2">&nbsp;&nbsp;Вызвать&nbsp;замерщика</button></div>
 </div>
         <div class="row">

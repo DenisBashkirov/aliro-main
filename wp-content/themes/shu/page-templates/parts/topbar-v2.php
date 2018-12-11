@@ -44,12 +44,9 @@
             </ul> 
 -->
         <div class="top-phone" >
-    <button class="btn-bluetop eModal-1" style="cursor: pointer;padding: 14px 10px!important;margin-right: 20px;">Заказать звонок</button> 
     <button id="foobtnzamertop" class="eModal-2" style="cursor: pointer;">Вызвать замерщика<br><span>и получить скидку <span>48 %</span></span></button>
 </div>
-        <div class="top-phone hidden-xs" style="margin-top: -26px;position: absolute;right: 5px;">
-<span class="seven" style="display:inline">&nbsp;Перезвоним за <b>7</b> секунд&nbsp;&nbsp;</span>           
-<span class="seven" style="display:inline">&nbsp;Скидка действует <b>до 30 ноября 2018</b>&nbsp;&nbsp;</span>           
+    <div class="top-phone hidden-xs" style="margin-top: -26px;position: absolute;right: 5px;">
  </div>
        </div>                                 
     </div>   
